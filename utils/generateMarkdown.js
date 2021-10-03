@@ -54,6 +54,7 @@ function renderLicenseSection(license) {
         ---
         ## License
         ${renderLicenseLink(license)}
+        ---
     `;
 }
 
@@ -75,31 +76,49 @@ function generateMarkdown(readmeData) {
     6. [Tests](#tests)
     7. [Further questions](#questions)
     ---
-    ## Description
 
+    ---
+    ## Description
+    \`\`\`
     ${readmeData.description}
+    \`\`\`
+    ---
+
     ---
     ## Installation
-
+    \`\`\`
     ${readmeData.install}
+    \`\`\`
+    ---
+
     ---
     ## Usage
-
+    \`\`\`
     ${readmeData.usage}
+    \`\`\`
+    ---
     ${renderLicenseSection(license)}
     ---
     ## Contribute
-    
+    \`\`\`
     ${readmeData.contribute}
+    \`\`\`
+    ---
+
     ---
     ## Tests
-    
+    \`\`\`
     ${readmeData.tests}
+    \`\`\`
+    ---
+
     ---
     ## Further Questions?
     
     Message me on git hub: ${readmeData.username}
+
     or
+
     Send me an email: ${readmeData.email}
 `;
 }

@@ -1,8 +1,8 @@
 
-# Patrick test
-    
+# Example Project
+
 ![badge:MIT](https://img.shields.io/badge/License-MIT-brightgreen)
-    
+
 ---
 ## Table of Contents
 
@@ -12,34 +12,51 @@
 4. [License](#license)
 5. [Contribute](#contribute)
 6. [Tests](#tests)
-7. [Questions](#questions)
+7. [Further questions](#questions)
+---
+
 ---
 ## Description
+```
+Giving an example of readme generation
+```
+---
 
-testing new setting
 ---
 ## Installation
+```
+example install instruction
+```
+---
 
-more testing
 ---
 ## Usage
-
-enter 'node index'
+```
+type 'node index' in command line
+```
+---
 
 ---
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
 
+---
 
 ---
 ## Contribute
+```
+example contribution guidelines
+```
+---
 
-more tests
 ---
 ## Tests
+```
+example tests
+```
+---
 
-testin more
 ---
 ## Further Questions?
 

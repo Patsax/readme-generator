@@ -122,6 +122,7 @@ const questions = (inputData) => {
     ])
     .then((readmeData) => {
         inputData.push(readmeData);
+        return readmeData;
     });
 };
 

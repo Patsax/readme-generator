@@ -53,7 +53,6 @@ function renderLicenseSection(license) {
     return `
         ---
         ## License
-
         ${renderLicenseLink(license)}
     `
 }
@@ -82,12 +81,11 @@ function generateMarkdown(readmeData) {
         ---
         ## Installation
 
-        ${readmeData.installation}
+        ${readmeData.install}
         ---
         ## Usage
 
         ${readmeData.usage}
-        
         ${renderLicenseSection(license)}
         ---
         ## Contribute
@@ -98,9 +96,11 @@ function generateMarkdown(readmeData) {
         
         ${readmeData.tests}
         ---
-        ## Questions
+        ## Further Questions?
         
-        ${readmeData.questions}
+        Message me on git hub: ${readmeData.username}
+        or
+        Send me an email: ${readmeData.email}
     `;
 }
 

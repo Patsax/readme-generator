@@ -65,15 +65,7 @@ const questions = (inputData) => {
         {
             type: "input",
             name: "license",
-            message: "What license is this project under? (Required)",
-            validate: (licenseInput) => {
-                if (licenseInput) {
-                    return true;
-                } else {
-                    console.log("Please provide a license!");
-                    return false;
-                }
-            }
+            message: "What license is this project under? (Required)\n [options: Apache 2.0, BSD 3, BSD 2, GPL, LGPL, MIT, Mozilla, Common, Eclipse"
         },
         {
             type: "input",
